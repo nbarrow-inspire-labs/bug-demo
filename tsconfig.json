@@ -1,6 +1,17 @@
 {
-  "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "decorators",
+      "dom",
+      "es5",
+      "scripthost",
+      "es2021.weakref"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
