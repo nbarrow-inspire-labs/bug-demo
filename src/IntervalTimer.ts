@@ -1,4 +1,4 @@
-class IntervalTimer {
+export class IntervalTimer {
 
   private readonly id: string;
   private readonly _debug: boolean;

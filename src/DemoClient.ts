@@ -1,3 +1,4 @@
+const {IntervalTimer} = require("./IntervalTimer");
 export class DemoClient {
   constructor() {
     console.log("[DemoClient] created");
